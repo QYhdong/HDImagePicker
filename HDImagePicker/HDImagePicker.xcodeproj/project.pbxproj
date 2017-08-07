@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FAC16FE1F37FD0300CC04EA /* HDPicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC16FC1F37FD0300CC04EA /* HDPicTableViewCell.swift */; };
+		6FAC16FF1F37FD0300CC04EA /* HDPicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FAC16FD1F37FD0300CC04EA /* HDPicTableViewCell.xib */; };
+		6FAC17011F3800BE00CC04EA /* HDTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC17001F3800BE00CC04EA /* HDTableHeaderView.swift */; };
+		6FAC17031F38017E00CC04EA /* HDTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FAC17021F38017E00CC04EA /* HDTableHeaderView.xib */; };
 		6FFA7C071F31806500F429AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFA7C061F31806500F429AE /* AppDelegate.swift */; };
 		6FFA7C091F31806500F429AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFA7C081F31806500F429AE /* ViewController.swift */; };
 		6FFA7C0C1F31806500F429AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FFA7C0A1F31806500F429AE /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6FAC16FC1F37FD0300CC04EA /* HDPicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDPicTableViewCell.swift; sourceTree = "<group>"; };
+		6FAC16FD1F37FD0300CC04EA /* HDPicTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDPicTableViewCell.xib; sourceTree = "<group>"; };
+		6FAC17001F3800BE00CC04EA /* HDTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDTableHeaderView.swift; sourceTree = "<group>"; };
+		6FAC17021F38017E00CC04EA /* HDTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDTableHeaderView.xib; sourceTree = "<group>"; };
 		6FFA7C031F31806500F429AE /* HDImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FFA7C061F31806500F429AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FFA7C081F31806500F429AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +107,10 @@
 			children = (
 				6FFA7C061F31806500F429AE /* AppDelegate.swift */,
 				6FFA7C081F31806500F429AE /* ViewController.swift */,
+				6FAC17001F3800BE00CC04EA /* HDTableHeaderView.swift */,
+				6FAC17021F38017E00CC04EA /* HDTableHeaderView.xib */,
+				6FAC16FC1F37FD0300CC04EA /* HDPicTableViewCell.swift */,
+				6FAC16FD1F37FD0300CC04EA /* HDPicTableViewCell.xib */,
 				6FFA7C0A1F31806500F429AE /* Main.storyboard */,
 				6FFA7C0D1F31806500F429AE /* Assets.xcassets */,
 				6FFA7C0F1F31806500F429AE /* LaunchScreen.storyboard */,
@@ -235,6 +247,8 @@
 			files = (
 				6FFA7C111F31806500F429AE /* LaunchScreen.storyboard in Resources */,
 				6FFA7C0E1F31806500F429AE /* Assets.xcassets in Resources */,
+				6FAC16FF1F37FD0300CC04EA /* HDPicTableViewCell.xib in Resources */,
+				6FAC17031F38017E00CC04EA /* HDTableHeaderView.xib in Resources */,
 				6FFA7C0C1F31806500F429AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FFA7C091F31806500F429AE /* ViewController.swift in Sources */,
+				6FAC16FE1F37FD0300CC04EA /* HDPicTableViewCell.swift in Sources */,
+				6FAC17011F3800BE00CC04EA /* HDTableHeaderView.swift in Sources */,
 				6FFA7C071F31806500F429AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +431,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WQD3WTCE79;
 				INFOPLIST_FILE = HDImagePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dong.HDImagePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WQD3WTCE79;
 				INFOPLIST_FILE = HDImagePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dong.HDImagePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -508,6 +526,7 @@
 				6FFA7C2D1F31806500F429AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FFA7C2E1F31806500F429AE /* Build configuration list for PBXNativeTarget "HDImagePickerTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +535,7 @@
 				6FFA7C301F31806500F429AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FFA7C311F31806500F429AE /* Build configuration list for PBXNativeTarget "HDImagePickerUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +544,7 @@
 				6FFA7C331F31806500F429AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
